@@ -1,0 +1,22 @@
+h2 {
+    color: teal
+}
+
+button{
+    color:magenta
+}
+
+p{
+    background-color: yellow;
+    color: olive;
+    line-height: 1;
+}
+
+h1{
+    text-align: center;
+    font-weight: 2000;
+    text-decoration: red underline wavy;
+    letter-spacing: 7px;
+    font-size: 50px;
+    font-family: monospace;
+}

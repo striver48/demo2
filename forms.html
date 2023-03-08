@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <!-- <form action="/tacos">
+      <p>
+      <label for="username">Enter User Name</label>
+      <input type="text" placeholder="ENter Username" id="username" name = "u_name"/>
+      </p>
+      <p>
+        <label for="pasword" >Password</label>
+        <input type="password" name="P_word" id="pasword" placeholder="Enter Password" />
+      </p>
+    <input type="color" name="" id="" />
+    <p>
+      <input type="number" name="" id="" />
+      <input type="button" value="">
+      </p>
+      <button type="button">Button</button>
+      <input type="submit" value="Click To SUbmit">
+    </form> -->
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="q" id="" />
+      <button>Search Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" id="" />
+      <button>Search Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" id="" />
+      <button>Saearch YOutube</button>
+      <h2>More Inputs</h2>
+    </form>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" checked />
+      <label for="agreee">I agree to evrything</label>
+
+      <p>
+        <label for="sg">SG</label>
+        <input type="radio" name="bat" id="sg" value="BatSG" />
+        <label for="ss">SS</label>
+        <input type="radio" name="bat" id="ss" />
+        <label for="GM">GM</label>
+        <input type="radio" name="bat" id="gm" />
+      </p>
+      <p>
+        <label for="meal">Please select a meal</label>
+        <select name="meal_selected" id="meal">
+          <option value="">--Select yoiur desired Meal--</option>
+          <option value="Idly">Idly</option>
+          <option value="Soup">Sambaar</option>
+          <option value="Paneer" >Paneer MASALA</option>
+        </select>
+      </p>
+      <p>
+        <label for="ghee">AMOUNT OF GHEE</label>
+        <input type="range" name="Ghee_Qty" id="ghee" min="1" max="100" step="10" value="70">
+      </p>
+      <p>
+        <label for="req">Any Special requests</label>
+        <br>
+        <textarea name="requests" id="req" cols="50" rows="10"></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
+      <h2>Validaton Demo</h2>
+      <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="first" id="first" required>
+        <button>Submit</button>
+        <p>
+          <label for="u_name">USERNAME</label>
+          <input type="text" name="user_name" id="u_name" placeholder="enter user name" required minlength="6" maxlength="10">
+        </p>
+    </form>
+  </body>
+</html>

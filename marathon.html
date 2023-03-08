@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Form</title>
+</head>
+<body>
+    <h1>Race Registeration</h1>
+    <form action="/dummy">
+        <label for="firstName">Enter First Name</label>
+        <input type="text" name="f_name" id="firstName" required>
+        <label for="lastName">Enter Last Name</label>
+        <input type="text" name="l_name" id="lastName">
+        <p>
+            Select a Race
+            <br>
+            <br>
+            <input type="radio" name="selection" id="f_run">
+            <label for="f_run">Fun Run 5km</label>
+            <br>
+            <input type="radio" name="selection" id="h_marathon">
+            <label for="h_marathon">Half Marathon</label>
+            <br>
+            <input type="radio" name="selection" id="f_marathon">
+            <label for="f_marathon">Full Marathon</label>
+        </p>
+        <div>
+            <label for="email">Enter Your E-mail</label>
+            <input type="email" name="email" id="email" required
+            placeholder="Example@website.com">
+            <label for="password">Enter Password</label>
+            <input type="password" name="password" id="password" minlength="8" required placeholder="Password">
+        </div>
+        <p>
+            <label for="age">Select Age</label>
+            <select name="runner_age" id="age">
+                <option value="">--Select Your Age Group--</option>
+                <option value="18-24">18-24</option>
+                <option value="24-30">24-30</option>
+                <option value="over 30">Over 30</option>
+            </select>
+        </p>
+        <button>Register</button>
+        <br>
+        <br><br>
+        <h2>Table Revision</h2>
+        <table>
+            <thead>
+            <tr>
+                <th rowspan="2">Person 1</th>
+                <th colspan="2">person 2</th>
+                <th colspan="2">person 3</th>
+            </tr>
+            <tr>
+                <th>can run</th>
+                <th>can swim</th>
+                <th>can run</th>
+                <th>can swim</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+            </tbody> 
+            </tr>
+        </table>
+</body>
+</html>
